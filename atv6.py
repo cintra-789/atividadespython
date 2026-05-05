@@ -29,7 +29,15 @@ for num in lista_numero:
 time.sleep(10)
 os.system("cls")"""
 
+"""
 #NOTE - Code do professor
 lista = [1,2,3,4,5,6,7,8,9,10]
 dobro = [v * 2 for v in lista]
+print(dobro)
+"""
+
+#NOTE - Outro jeito
+lista = [1,2,3,4,5,6,7,8,9,10]
+for i in lista:
+    dobro = i*2
 print(dobro)
